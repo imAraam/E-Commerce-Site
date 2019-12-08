@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="E_commerce_website.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel = "stylesheet" type = "text/css" href = "Content/Style.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    <div id = "header">
+	<strong>Ember Global</strong>
+	<img src = "images/phone-hand.jpg" width = "120" height = "80" style = "margin-bottom:-22px;"/>
+	
+	<meta charset="UTF-8"/> 
+	<!-- <!Character encoding for HTML doc> -->
+	<meta name = "author" content = "Aram Albaradie"/> 
+	<!-- <!Defining the author of this page> -->
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0"/> 
+	<!-- <!Setting the viewport to allow for viewing on all devices> -->
+	<meta name = "keywords" content = "Electronics, Mobile phones"/> 
+	<!-- <!Keywords for search engines> -->
+       
+ </div>
+
+
+    <div id="register" runat ="server">
+
+         <%     if (Session["New"] != null)
+       {%>
+    
+        <asp:Label ID="Label1" runat="server" Text="Welcome "></asp:Label>
+	<p>
+       <asp:Button ID="Button1" runat="server" OnClick="B_Logout_Click" Text="Logout" />
+        
+        </p>
+     
+<%} %>    <%else
+       {%>
+   
+	<p id = "signup"><a href = "Form.aspx"><button runat="server" style = "border-radius: 50px" >Sign up</button></a></p>
+	<!-- Sign up form -->
+	<p id = "signin">Already have an account?<br></br><a href = "LoginPage.aspx">Sign in</a></p>
+     
+<%} %>
+
+       
+       
+    </div>
+
+
+<body>
+   <form id="form1" method ="post" runat="server">
+
+
+
+
+    <div style = "margin-left: -7px;" id = "sidebar">
+	<p style = "margin-left: 28px;"><strong>Ember Global's Phone Sales</strong></p>
+
+	<nav>
+	
+		<%--<p id = "home"><a href = "Index.aspx">Home</a></p>--%>
+
+		<p id = "slideshow"><a href = "Slideshow.aspx">Hot Deals Slideshow</a></p>
+
+		<p id = "specs"><a href = "xml.aspx" >Hot Deals Specs (XML)</a></p>
+
+         <% if (Session["New"] != null)
+       {%>
+
+        <p id ="basket"><a href ="ShoppingBasket.aspx" >Shopping Basket</a></p>
+
+        <p id ="accountmgmt"><a href ="AccountManagement.aspx" >Account Management</a></p>
+
+        <p id = "detailsPage"><a href = "DetailsPage.aspx" >Details Page</a></p>
+
+          <%} %> 
+
+		<p id = "report"><a href = "report.aspx" >Report</a></p>
+
+        
+        
+         <%  HttpCookie cookie = Request.Cookies["userInfo"];
+             string userName = string.Empty;                  
+             if (cookie != null)
+             {
+                   userName = cookie["Username"].ToString();
+                      if (userName.Equals("admin"))
+                      { %>
+        <div class ="adminMenu">
+                    <p id ="accountsView"><a href ="AccountsView.aspx">Accounts View</a></p>
+
+                    <p id ="productView"><a href ="ProductView.aspx">Product View</a></p>
+            </div>
+                    <style>
+                        .adminMenu {
+                            margin-left: 16%;
+                            margin-top: -244%;
+                            padding-bottom: 170%;
+                        }
+                        
+                    </style>
+                    <%}%>
+          <%} %> 
+	</nav>
+
+</div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+    <div id = "footer">
+	        <strong> © 2019 Aram Albaradie N0755314 </strong>
+        </div>
+</html>

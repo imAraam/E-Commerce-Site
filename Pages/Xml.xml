@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<specs>
+	<phone>
+		<name> Samsung Galaxy S9 </name>
+		<dimensions> 147.7 x 68.7 x 8.5 mm </dimensions>
+		<weight> 163g </weight>
+		<screenSize> 5.8-inch </screenSize>
+		<cpu> Snapdragon 845 / Exynos 9810 </cpu>
+		<ram> 4GB </ram>
+		<storage> 64GB </storage>
+		<camera> 12MP rear, 8MP front </camera>
+		<battery> 3000mAh </battery>	
+		<productID>SGS902181997</productID>
+	</phone>
+	
+	<phone>
+		<name> Huawei P20 Pro </name>
+		<dimensions> 73.9 x 155 x 7.8 mm </dimensions>
+		<weight> 180g </weight>
+		<screenSize> 6.1-inch </screenSize>
+		<cpu> Cortex A73 / Cortex-A53 </cpu>
+		<ram> 6GB </ram>
+		<storage> 128 GB </storage>
+		<camera> 40MP + 20MP + 8MP triple camera </camera>
+		<battery> 4000 mAh </battery>	
+		<productID>HP20P02181997</productID>
+	</phone>
+	
+	<phone>
+		<name> Sony Xperia Z5 </name>
+		<dimensions> 72 x 146 x 7.3 mm </dimensions>
+		<weight> 154g </weight>
+		<screenSize> 5.2-inch </screenSize>
+		<cpu> Cortex-A57 / Cortex-A53 </cpu>
+		<ram> 3GB </ram>
+		<storage> 32GB </storage>
+		<camera> 23MP / 5.1MP  </camera>
+		<battery> 2900 mAh </battery>	
+		<productID>SXZ502181997</productID>
+	</phone>
+	
+	<phone>
+		<name> iPhone XS </name>
+		<dimensions> 70.9 x 143.6 x 7.7 mm </dimensions>
+		<weight> 177g </weight>
+		<screenSize> 5.8-inch </screenSize>
+		<cpu> Vortex / Tempest </cpu>
+		<ram> 4GB </ram>
+		<storage> 64GB </storage>
+		<camera> 12MP rear / 7MP front </camera>
+		<battery> 2658 mAh </battery>
+		<productID>IPXS02181997</productID>		
+	</phone>
+</specs>
