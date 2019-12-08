@@ -1,0 +1,818 @@
+html, body {
+    height: 1375px;
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    background-image: url("../images/Background.png");
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#header { /*header div*/
+	color: #fff;
+	background: #4682B4;
+	padding: 30px;
+	text-align: center;
+	margin-top: -8px;
+	margin-right: -8px;
+	margin-left: -7px;
+	background-clip: text;
+	text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+	font: 45px arial, sans-serif;
+	border-style: outset;
+	border-width: 8px;
+	border-color: #fff;
+	border-radius: 12px;
+}
+
+ #register { /*registration div */
+	color: #fff;
+	background: #4682B4;
+	padding: 15px;
+	float: right;
+	border-style: ridge;
+	border-width: 10px;
+	margin-right: -8px;
+}
+
+#sidebar { /*menu navigation sidebar*/
+	min-height: 200%;
+	float: left;
+	width: 14%;
+	color: #fff;
+	background: #4682B4;
+	font: 20px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border-style: outset;
+	border-width: 4px;
+	border-color: #fff;
+	border-radius: 12px;
+}
+
+/*#content { /*index main content*/
+	/*overflow: auto;
+	padding-bottom: 100px;
+	margin-right: 34%;
+	font: 15px arial, sans-serif;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	color: #fff;
+    height: 1127px;
+    width: 1507px;
+    margin-left: 213px;
+    margin-top: 533px;
+}*/
+
+#footer { /*copywrite and name footer*/
+	margin-top: ;
+    border: 4px outset #fff;
+    position: relative;
+	height: 50px;
+	width: 100%;
+	margin-left: -7px;
+	margin-top; relative;
+	color: #fff;
+	background: #4682B4;
+	clear: both;
+	text-align: center;
+	font: 17px arial, sans-serif;
+	border-radius: 12px;
+    top: 38px;
+    left: 7px;
+}
+
+#home{
+	margin-left: 31%;
+}
+
+#slideshow{
+	margin-left: 22%;
+}
+
+#specs{
+	margin-left: 22.5%;
+}
+
+#basket {
+    margin-left: 20%;
+}
+
+#accountmgmt {
+    margin-left: 20%;
+}
+
+#orderForm{
+	margin-left: 22%;
+}
+
+#detailsPage {
+    margin-left: 22%;
+}
+
+#report{
+	margin-left: 27%;
+    height: 497px;
+}
+
+#signup { /*signup button*/
+	font: 10px arial, sans-serif;
+	text-align: center;
+}
+
+#signin { /*signin link*/
+	font: 15px arial, sans-serif;
+	text-align: center;
+}
+
+#ember{
+	font-size: 24px;
+}
+
+#grnte{
+	margin-left: 15%;
+}
+
+/*Index images and text*/
+
+/*#img1 {
+	padding: 25px;
+	float: left;
+    height: 201px;
+    margin-top: 9px;
+}
+#h1 {
+	padding: 25px;
+	float: left;
+    width: 127px;
+    height: 32px;
+    margin-top: 10px;
+}
+#p1 {
+	position: absolute;
+	margin-left: 16%;
+	margin-top: 6%;
+    top: 942px;
+    left: 83px;
+}
+#img2 {
+	padding: 25px;
+	float: left;
+    margin-left: 42px;
+}
+#h2 {
+	position: absolute;
+	margin-left: 44%;
+	padding: 25px;
+    top: 1108px;
+    left: 275px;
+}
+#p2 {
+	position: absolute;
+	margin-left: 44%;
+	margin-top: 6%;
+    top: 607px;
+    left: 503px;
+}
+#img3 {
+	padding: 25px;
+	float: left;
+    width: 184px;
+    margin-left: 0px;
+    margin-top: 1px;
+}
+#h3 {
+	padding: 25px;
+	float: left;
+}
+#p3 {
+	position: absolute;
+	margin-left: 17%;
+	margin-top: 24%;
+    top: 645px;
+    left: 1013px;
+}
+#img4 {
+	margin-left: -1%;
+	padding: 25px;
+	float: left;
+}
+#h4 {
+	position: absolute;
+	margin-left: 44%;
+	margin-top: 19%;
+	padding: 25px;
+    top: 635px;
+    left: 417px;
+}
+#p4 {
+	position: absolute;
+	margin-left: 44%;
+	margin-top: 24%;
+    top: 653px;
+    left: 347px;
+}
+#img5 {
+	padding: 25px;
+	float: left;
+}
+#h5 {
+	padding: 25px;
+	float: left;
+}
+#p5 {
+	position: absolute;
+	margin-left: 16%;
+	margin-top: 42%;
+    top: 197px;
+    left: 868px;
+}
+#img6 {
+	padding: 25px;
+	float: left;
+}
+#h6 {
+	position: absolute;
+	margin-left: 43%;
+	margin-top: 36%;
+	padding: 25px;
+    top: 665px;
+    left: 177px;
+    height: 89px;
+}
+#p6 {
+	position: absolute;
+	margin-left: 44%;
+	margin-top: 42%;
+    top: -634px;
+    left: -664px;
+}
+#img7 {
+	padding: 25px;
+	float: left;
+}
+#h7 {
+	margin-left: -20px;
+	padding: 25px;
+	float: left;
+}
+#p7 {
+	position: absolute;
+	margin-left: 17%;
+	margin-top: 59%;
+    top: 207px;
+    left: 466px;
+}
+#img8 {
+	padding: 25px;
+	margin-top: -17%;
+	margin-left: 14%;
+	float: center-right;
+}
+#h8 {
+	position: absolute;
+	margin-top: -17%;
+	margin-left: 44%;
+	padding: 25px;
+    top: 1442px;
+    left: 252px;
+}
+#p8 {
+	position: absolute;
+	margin-left: 45%;
+	margin-top: -11.5%;
+    top: 763px;
+    left: 454px;
+}*/
+
+/* hrefs */
+a:visited { /*visited link*/
+	color: hotpink;
+}
+
+a:link { /*unvisited links*/
+	color: #8ca3a3;
+}
+
+a:hover { 
+	color: red;
+}
+
+
+/* slideshow CSS -----------------------------------------------------------*/
+
+.slider{
+	max-width: 1000px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.image{
+	vertical-align: middle;
+	max-width: 100%;
+	padding: 100px;
+}
+
+.index{
+	position: absolute;
+	margin-left: 230px;
+	margin-top: 110px;
+	top: 0;
+	padding: 8px 12px; 
+	color: #fff;
+	font-size: 16px;
+	font: 20px arial, sans-serif;
+	text-shadow: 2px 2px black;
+}
+
+.caption{
+	margin-top: -250px;
+	top: 0;
+	padding: 8px 12px; 
+	color: #fff;
+	font-size: 16px;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	margin-left: 245px;
+	font: 24px arial, sans-serif;
+	text-shadow: 2px 2px black;
+}
+
+
+/* registration form CSS ---------------------------------------------------------------------*/
+
+.container{
+	padding: 100px;
+	color: #fff;
+	text-shadow: 2px 2px black;
+}
+
+input[type = text]{ /*For both registration and order forms*/
+	width: 35%;
+	padding: 15px;
+	margin: 8px 0 25px 0;
+	margin-left: 28px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type = password] {
+	width: 35%;
+	padding: 15px;
+	margin: 8px 0 25px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type = text]:focus, input[type = password]:focus{
+	background-color: #ddd;
+    outline: none;
+}
+
+hr {
+  margin-bottom: 25px;
+}
+
+.registration {
+  background-color: #034f84;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 180px;
+  border: ed;
+  cursor: pointer;
+  width: 50%;
+  opacity: 1;
+  border: 2px solid light-blue;
+  border-radius: 12px;
+}
+
+.registration:hover {
+  opacity: 1;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#rgstr{
+	margin-left: 40%;
+}
+
+#rgstrq{
+	margin-left: 37%;
+}
+
+#confirmtc{
+	margin-left: 33%;
+    height: 18px;
+    margin-top: 219px;
+}
+
+/*order form CSS--------------------------------------------------------------------------------------*/
+
+.order{
+	padding: 100px;
+	color: #fff;
+	text-shadow: 2px 2px black;
+}
+
+.infoSave {
+	margin-top: 50px;
+	margin-left: 420px;
+}
+
+.orderConfirm{
+	background-color: #034f84;
+	color: white;
+	font-size: 20px;
+	padding: 16px 10px;
+	margin: 80px 200px;
+	margin-bottom: 10px;
+	border: ed;
+	cursor: pointer;
+	width: 50%;
+	opacity: 1;
+	border: 2px solid light-blue;
+	border-radius: 12px;
+}
+
+#ordrf{
+	margin-left: 43%;
+}
+
+#ordrfq{
+	margin-left: 15%;
+}
+
+#pyment{
+	margin-left: 38%;
+}
+
+#cardtype{
+	margin-left: 37%;
+}
+
+#signsave{
+	margin-left: 5%;
+}
+
+#btnsave{
+	margin-left: 15%;
+}
+
+#tandc{
+	margin-left: 32%;
+}
+
+#name {
+	width: 35%;
+}
+
+#address{
+	width: 35%;
+	margin-left: 45px;
+}
+
+#postcode{
+	width: 35%;
+	margin-left: 31px;
+}
+
+#productID{
+	width: 35%;
+	margin-left: 25px;
+}
+
+#pnumber{
+	width: 35%;
+}
+
+/*XML CSS---------------------------------------------------------------------------------------------*/
+
+.xml {
+	text-align: center;
+	padding: 65px;
+	color: #fff;
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+	font-weight: 250;
+}
+
+.btn {
+	border: 1px solid #3498db;
+	background: none;
+	padding: 10px 20px;
+	font-family: "montserrat";
+	color: #fff;
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+}
+
+.btn:hover {
+	color: #fff;
+	background-color: #3498db;
+}
+
+/*Report CSS---------------------------------------------------------------------------------------------*/
+
+.report{
+	margin: 0;
+	color: #fff;
+	padding: 100px;
+	text-align: center;
+	font-size: 15px;
+	text-shadow: 2px 2px black;
+}
+
+@media screen and (min-width: 1441px){/*for PCs and screens over 1441pixels*/
+	
+	/*#content{
+		font: 21px arial, sans-serif;
+		margin-right: 47%
+	}*/
+	#home{
+		margin-left: 33%;
+	}
+	#slideshow{
+		margin-left: 13%;
+	}
+	#specs{
+		margin-left: 12%;
+	}
+	#orderForm{
+		margin-left: 24%;
+	}
+	#report{
+		margin-left: 31%;
+	}
+	#ember{
+		font-size: 35px;
+	}
+	#grnte{
+		font-size: 17px;
+		margin-left: 3%;
+		text-align: right;
+	}
+	#img8{
+		margin-right: -14%;
+		margin-top: -19.5%;
+	}
+	/*#h2{
+		margin-left: 38%;
+	}
+	#h4{
+		margin-left: 38%;
+		margin-top: 14%
+	}
+	#h5{
+		margin-top: 0%
+	}
+	#h6{
+		margin-left: 37%;
+		margin-top: 27%
+	}
+	#h7{
+		margin-left: -5%;
+		margin-top: 2%
+	}
+	#h8{
+		margin-left: 37%;
+		margin-top: -13.5%;
+	}
+	#p1{
+		margin-left: 11.5%;
+		margin-top: 5%;
+	}
+	#p2{
+		margin-left: 38%;
+		margin-top: 5%;
+	}
+	#p3{
+		margin-left: 12.5%;
+		margin-top: 19%;
+	}
+	#p4{
+		margin-left: 38%;
+		margin-top: 17%;
+	}
+	#p5{
+		margin-left: 11.5%;
+		margin-top: 31%;
+	}
+	#p6{
+		margin-left: 38%;
+		margin-top: 32%;
+	}
+	#p7{
+		margin-left: 11.5%;
+		margin-top: 45%;
+	}
+	#p8{
+		margin-left: 38%;
+		margin-top: -9%;
+	}*/
+	#rgstr{
+		margin-left: 38%;
+	}
+	#rgstrq{
+		margin-left: 36%;
+	}	
+	#confirmtc{
+		margin-left: 32%;
+	}
+	input[type = text] {
+		width: 45%
+	}
+	input[type = password] {
+		width: 45%
+	}
+	#ordrf{
+		margin-left: 40%;
+	}
+	#ordrfq{
+		margin-left: 18%;
+	}
+	#pyment{
+		margin-left: 33%;
+	}
+	#signsave{
+		margin-left: 11%;
+	}
+	#btnsave{
+		margin-left: 18%;
+	}
+	#tandc{
+		margin-left: 33%;
+	}
+	.report{
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 770px){ /*for tablets and screens under 770pixels*/
+	
+	/*#content{
+		font: 12px arial, sans-serif;
+		margin-right: 15%;
+		padding: 7%;
+	}*/
+	#home{
+		margin-left: 12%;
+	}
+	#slideshow{
+		margin-left: 9%;
+	}
+	#specs{
+		margin-left: 9%;
+	}
+	#orderForm{
+		margin-left: 12%;
+	}
+	#report{
+		margin-left: 12%;
+	}
+	#grnte{
+		font-size: 10px;
+		margin-left: -17%;
+		text-align: left;
+		padding: 6%;
+	}
+	/*#img1{
+		margin-left: -21%;
+		width: 40%;
+		height: 30%;
+	}
+	#img2{
+		margin-top: -55%;
+		margin-left: 70%;
+		width: 40%;
+		height: 30%;
+	}
+	#img3{
+		margin-left: -21%;
+		width: 40%;
+		height: 30%;
+	}
+	#img4{
+		margin-top: -55%;
+		margin-left: 70%;
+		width: 40%;
+		height: 30%;
+	}
+	#img5{
+		margin-left: -21%;
+		width: 40%;
+		height: 30%;
+	}
+	#img6{
+		margin-top: -55%;
+		margin-left: 70%;
+		width: 40%;
+		height: 30%;
+	}
+	#img7{
+		margin-left: -21%;
+		width: 40%;
+		height: 30%;
+	}
+	#img8{
+		width: 40%;
+		height: 30%;
+		margin-left: 69%;
+		margin-top: -70%;
+	}
+
+	#h1{
+		margin-top: -52%;
+		margin-left: 30%;
+	}
+	#h2{
+		margin-left: 47%;
+	}
+	#h3{
+		margin-top: -56%;
+		margin-left: 30%;
+	}
+	#h4{
+		margin-left: 47%;
+		margin-top: 25%
+	}
+	#h5{
+		margin-top: 2%;
+		margin-left: -4%;
+	}
+	#h6{
+		margin-left: 47%;
+		margin-top: 49%
+	}
+	#h7{
+		margin-left: 25%;
+		margin-top: -53%;
+	}
+	#h8{
+		margin-left: 47%;
+		margin-top: -23%;
+	}
+	#p1{
+		margin-left: 11.5%;
+		margin-top: 8%;
+	}
+	#p2{
+		margin-left: 48%;
+		margin-top: 8%;
+	}
+	#p3{
+		margin-left: 12.5%;
+		margin-top: 31%;
+	}
+	#p4{
+		margin-left: 48%;
+		margin-top: 31%;
+	}
+	#p5{
+		margin-left: 11.5%;
+		margin-top: 57%;
+	}
+	#p6{
+		margin-left: 49%;
+		margin-top: 57%;
+	}
+	#p7{
+		margin-left: 11.5%;
+		margin-top: 80%;
+	}
+	#p8{
+		margin-left: 49%;
+		margin-top: -15%;
+	}*/
+	#btnrgstr{
+		width: 30%;
+	}
+	.index{
+		margin-top: 5%;
+	}
+	.caption{
+		margin-left: 30%;
+	}
+	#cardtype{
+		margin-left: 51%;
+	}
+	#signsave{
+		margin-left: -100%;
+	}
+	#btnsave{
+		margin-left: -100%;
+	}
+	.orderconfirm{
+		margin-top: -90%;
+	}
+	#tandc{
+		margin-left: 20%;
+	}
+
+}
